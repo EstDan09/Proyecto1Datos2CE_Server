@@ -83,6 +83,11 @@ int main()
             send(clientSocket, response.c_str(), response.size() + 1, 0);
         }
 
+        if (string(buf, 0, bytesReceived) == "adios"){
+            string response = "End";
+            send(clientSocket, response.c_str(), response.size() + 1, 0);
+        }
+
         cout << string(buf, 0, bytesReceived) << endl;
 
         // Echo message back to client
