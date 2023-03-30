@@ -1,3 +1,5 @@
 # ninja log v5
 0	300	1680108344599841454	CMakeFiles/Proyecto1Datos2CE_Server.dir/main.cpp.o	9a3450587d14305b
 300	429	1680108344723842551	Proyecto1Datos2CE_Server	b1051d7cd7731fac
+1	180	1680188460946589569	CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.o	2f9a0db806a67732
+181	407	1680188461254654431	Proyecto1Datos2CE_Server	cd6788d5669fda2a
