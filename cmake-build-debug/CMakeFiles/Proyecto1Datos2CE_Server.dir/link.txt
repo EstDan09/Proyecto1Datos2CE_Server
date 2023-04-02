@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Proyecto1Datos2CE_Server.dir/main.cpp.o CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.o CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o -o Proyecto1Datos2CE_Server 

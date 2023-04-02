@@ -1,4 +1,4 @@
-# Install script for directory: /home/esteban/CLionProjects/Proyecto1Datos2CE_Server
+# Install script for directory: /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/esteban/CLionProjects/Proyecto1Datos2CE_Server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
