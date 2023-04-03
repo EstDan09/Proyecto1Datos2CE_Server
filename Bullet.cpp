@@ -20,7 +20,7 @@ bool Bullet::getRecycled() const {
 bool Bullet::getDirection() const {
     return direction;
 }
-Bullet* Bullet::getNext() const {
+Bullet* Bullet::getNextPtr() const {
     return next;
 }
 void Bullet::setDamage(int nDamage) {
@@ -32,6 +32,6 @@ void Bullet::setRecycled(bool nCondition) {
 void Bullet::setDirection(bool nDirection) {
     Bullet::direction = nDirection;
 }
-void Bullet::setNext(Bullet *next) {
+void Bullet::setNextPtr(Bullet *next) {
     Bullet::next = next;
 }

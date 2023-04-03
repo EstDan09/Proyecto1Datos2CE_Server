@@ -81,12 +81,12 @@ clean: CMakeFiles/Proyecto1Datos2CE_Server.dir/clean
 CMakeFiles/Proyecto1Datos2CE_Server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Proyecto1Datos2CE_Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Proyecto1Datos2CE_Server"
 .PHONY : CMakeFiles/Proyecto1Datos2CE_Server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Proyecto1Datos2CE_Server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Proyecto1Datos2CE_Server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Proyecto1Datos2CE_Server.dir/rule

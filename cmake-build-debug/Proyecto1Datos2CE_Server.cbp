@@ -82,16 +82,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.cpp">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.h">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
 		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.cpp">
 			<Option target="Proyecto1Datos2CE_Server"/>
 		</Unit>
 		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.h">
 			<Option target="Proyecto1Datos2CE_Server"/>
 		</Unit>
-		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/shipPlayer.cpp">
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.cpp">
 			<Option target="Proyecto1Datos2CE_Server"/>
 		</Unit>
-		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/shipPlayer.h">
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.h">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.cpp">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.h">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.cpp">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.h">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.cpp">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.h">
 			<Option target="Proyecto1Datos2CE_Server"/>
 		</Unit>
 		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/main.cpp">

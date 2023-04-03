@@ -129,6 +129,30 @@ Proyecto1Datos2CE_Server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/build
 .PHONY : Proyecto1Datos2CE_Server/fast
 
+Ammunation.o: Ammunation.cpp.o
+.PHONY : Ammunation.o
+
+# target to build an object file
+Ammunation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o
+.PHONY : Ammunation.cpp.o
+
+Ammunation.i: Ammunation.cpp.i
+.PHONY : Ammunation.i
+
+# target to preprocess a source file
+Ammunation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.i
+.PHONY : Ammunation.cpp.i
+
+Ammunation.s: Ammunation.cpp.s
+.PHONY : Ammunation.s
+
+# target to generate assembly for a file
+Ammunation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.s
+.PHONY : Ammunation.cpp.s
+
 Bullet.o: Bullet.cpp.o
 .PHONY : Bullet.o
 
@@ -152,6 +176,102 @@ Bullet.s: Bullet.cpp.s
 Bullet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.s
 .PHONY : Bullet.cpp.s
+
+BulletCollector.o: BulletCollector.cpp.o
+.PHONY : BulletCollector.o
+
+# target to build an object file
+BulletCollector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o
+.PHONY : BulletCollector.cpp.o
+
+BulletCollector.i: BulletCollector.cpp.i
+.PHONY : BulletCollector.i
+
+# target to preprocess a source file
+BulletCollector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.i
+.PHONY : BulletCollector.cpp.i
+
+BulletCollector.s: BulletCollector.cpp.s
+.PHONY : BulletCollector.s
+
+# target to generate assembly for a file
+BulletCollector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.s
+.PHONY : BulletCollector.cpp.s
+
+ShipEnemy.o: ShipEnemy.cpp.o
+.PHONY : ShipEnemy.o
+
+# target to build an object file
+ShipEnemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o
+.PHONY : ShipEnemy.cpp.o
+
+ShipEnemy.i: ShipEnemy.cpp.i
+.PHONY : ShipEnemy.i
+
+# target to preprocess a source file
+ShipEnemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.i
+.PHONY : ShipEnemy.cpp.i
+
+ShipEnemy.s: ShipEnemy.cpp.s
+.PHONY : ShipEnemy.s
+
+# target to generate assembly for a file
+ShipEnemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.s
+.PHONY : ShipEnemy.cpp.s
+
+ShipPlayer.o: ShipPlayer.cpp.o
+.PHONY : ShipPlayer.o
+
+# target to build an object file
+ShipPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o
+.PHONY : ShipPlayer.cpp.o
+
+ShipPlayer.i: ShipPlayer.cpp.i
+.PHONY : ShipPlayer.i
+
+# target to preprocess a source file
+ShipPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.i
+.PHONY : ShipPlayer.cpp.i
+
+ShipPlayer.s: ShipPlayer.cpp.s
+.PHONY : ShipPlayer.s
+
+# target to generate assembly for a file
+ShipPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.s
+.PHONY : ShipPlayer.cpp.s
+
+Waves.o: Waves.cpp.o
+.PHONY : Waves.o
+
+# target to build an object file
+Waves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o
+.PHONY : Waves.cpp.o
+
+Waves.i: Waves.cpp.i
+.PHONY : Waves.i
+
+# target to preprocess a source file
+Waves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.i
+.PHONY : Waves.cpp.i
+
+Waves.s: Waves.cpp.s
+.PHONY : Waves.s
+
+# target to generate assembly for a file
+Waves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.s
+.PHONY : Waves.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -177,30 +297,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-shipPlayer.o: shipPlayer.cpp.o
-.PHONY : shipPlayer.o
-
-# target to build an object file
-shipPlayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o
-.PHONY : shipPlayer.cpp.o
-
-shipPlayer.i: shipPlayer.cpp.i
-.PHONY : shipPlayer.i
-
-# target to preprocess a source file
-shipPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.i
-.PHONY : shipPlayer.cpp.i
-
-shipPlayer.s: shipPlayer.cpp.s
-.PHONY : shipPlayer.s
-
-# target to generate assembly for a file
-shipPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.s
-.PHONY : shipPlayer.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Proyecto1Datos2CE_Server"
+	@echo "... Ammunation.o"
+	@echo "... Ammunation.i"
+	@echo "... Ammunation.s"
 	@echo "... Bullet.o"
 	@echo "... Bullet.i"
 	@echo "... Bullet.s"
+	@echo "... BulletCollector.o"
+	@echo "... BulletCollector.i"
+	@echo "... BulletCollector.s"
+	@echo "... ShipEnemy.o"
+	@echo "... ShipEnemy.i"
+	@echo "... ShipEnemy.s"
+	@echo "... ShipPlayer.o"
+	@echo "... ShipPlayer.i"
+	@echo "... ShipPlayer.s"
+	@echo "... Waves.o"
+	@echo "... Waves.i"
+	@echo "... Waves.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... shipPlayer.o"
-	@echo "... shipPlayer.i"
-	@echo "... shipPlayer.s"
 .PHONY : help
 
 

@@ -97,35 +97,99 @@ CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.cpp -o CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.s
 
-CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/flags.make
-CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o: shipPlayer.cpp
-CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o -MF CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o.d -o CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o -c /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/shipPlayer.cpp
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/flags.make
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o: /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.cpp
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o -MF CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o.d -o CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o -c /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.cpp
 
-CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/shipPlayer.cpp > CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.i
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.cpp > CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.i
 
-CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/shipPlayer.cpp -o CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.s
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.cpp -o CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.s
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/flags.make
+CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o: /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.cpp
+CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o -MF CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o.d -o CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o -c /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.cpp
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.cpp > CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.i
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.cpp -o CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.s
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/flags.make
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o: /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.cpp
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o -MF CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o.d -o CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o -c /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.cpp
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.cpp > CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.i
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.cpp -o CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.s
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/flags.make
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o: /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.cpp
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o -MF CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o.d -o CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o -c /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.cpp
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.cpp > CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.i
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.cpp -o CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.s
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/flags.make
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o: /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.cpp
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o: CMakeFiles/Proyecto1Datos2CE_Server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o -MF CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o.d -o CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o -c /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.cpp
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.cpp > CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.i
+
+CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.cpp -o CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.s
 
 # Object files for target Proyecto1Datos2CE_Server
 Proyecto1Datos2CE_Server_OBJECTS = \
 "CMakeFiles/Proyecto1Datos2CE_Server.dir/main.cpp.o" \
 "CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.o" \
-"CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o"
+"CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o" \
+"CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o" \
+"CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o" \
+"CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o" \
+"CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o"
 
 # External object files for target Proyecto1Datos2CE_Server
 Proyecto1Datos2CE_Server_EXTERNAL_OBJECTS =
 
 Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/main.cpp.o
 Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.o
-Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/shipPlayer.cpp.o
+Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o
+Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o
+Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o
+Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o
+Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o
 Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make
 Proyecto1Datos2CE_Server: CMakeFiles/Proyecto1Datos2CE_Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Proyecto1Datos2CE_Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto1Datos2CE_Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto1Datos2CE_Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
