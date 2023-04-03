@@ -6,11 +6,12 @@
 #include <arpa/inet.h>
 #include <string.h>
 #include <string>
-
+#include "ShipPlayer.h"
 using namespace std;
 
 int main()
 {
+    ShipPlayer shipPlayer = ShipPlayer();
     // Create a socket
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)
