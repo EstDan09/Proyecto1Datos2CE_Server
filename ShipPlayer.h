@@ -22,7 +22,7 @@ public:
 
     void setSelecPower(const std::string nSelecPower);
 
-    bool isAlive() const;
+    bool isAlive();
 
     void setAlive(bool cAlive);
     Ammunation ammunation;

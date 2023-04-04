@@ -6,13 +6,16 @@
 #include <arpa/inet.h>
 #include <string.h>
 #include <string>
-#include "ShipPlayer.h"
+#include "Waves.h"
+
 using namespace std;
 
 int main()
 {
-    ShipPlayer shipPlayer = ShipPlayer();
-    // Create a socket
+    Waves* waves = new Waves();
+    waves->insertShips(20);
+    waves->colShip(18,105);
+    delete waves;
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)
     {
@@ -20,7 +23,7 @@ int main()
         return -1;
     }
 
-    // Bind the ip address and port to a socket
+// Bind the ip address and port to a socket
     sockaddr_in hint;
     hint.sin_family = AF_INET;
     hint.sin_port = htons(54000);
@@ -28,10 +31,10 @@ int main()
 
     bind(listening, (sockaddr*)&hint, sizeof(hint));
 
-    // Tell Winsock the socket is for listening
+// Tell Winsock the socket is for listening
     listen(listening, SOMAXCONN);
 
-    // Wait for a connection
+// Wait for a connection
     sockaddr_in client;
     socklen_t clientSize = sizeof(client);
 
@@ -53,10 +56,10 @@ int main()
         cout << host << " connected on port " << ntohs(client.sin_port) << endl;
     }
 
-    // Close listening socket
+// Close listening socket
     close(listening);
 
-    // While loop: accept and echo message back to client
+// While loop: accept and echo message back to client
     char buf[4096];
 
 
@@ -65,7 +68,7 @@ int main()
     {
         memset(buf, 0, 4096);
 
-        // Wait for client to send data
+// Wait for client to send data
         int bytesReceived = recv(clientSocket, buf, 4096, 0);
         if (bytesReceived == -1)
         {
@@ -91,11 +94,11 @@ int main()
 
         cout << string(buf, 0, bytesReceived) << endl;
 
-        // Echo message back to client
+// Echo message back to client
         send(clientSocket, buf, bytesReceived + 1, 0);
     }
 
-    // Close the socket
+// Close the socket
     close(clientSocket);
 
     return 0;

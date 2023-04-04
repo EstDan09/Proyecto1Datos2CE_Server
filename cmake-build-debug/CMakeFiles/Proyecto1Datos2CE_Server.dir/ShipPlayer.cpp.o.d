@@ -148,4 +148,6 @@ CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.h
+ /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.h \
+ /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.h \
+ /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.h

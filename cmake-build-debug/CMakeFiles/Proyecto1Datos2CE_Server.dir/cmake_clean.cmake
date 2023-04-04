@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.o.d"
   "CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o"
   "CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o.d"
+  "CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.o"
+  "CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.o.d"
   "CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o"
   "CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o.d"
   "CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o"
