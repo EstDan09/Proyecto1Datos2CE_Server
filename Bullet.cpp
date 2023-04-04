@@ -7,6 +7,7 @@
 Bullet::Bullet(int dam) {
     Bullet::damage = dam;
     Bullet::recycled = false;
+    Bullet::next = nullptr;
 }
 Bullet::~Bullet(){}
 

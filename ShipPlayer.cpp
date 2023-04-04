@@ -6,7 +6,7 @@
 
 ShipPlayer::ShipPlayer(int sVida) {
     ShipPlayer::vida = sVida;
-    ShipPlayer::alive = true;
+    ShipPlayer::vida = 100;
 }
 ShipPlayer::~ShipPlayer() {}
 
@@ -26,7 +26,7 @@ void ShipPlayer::setSelecPower(const std::string nSelecPower) {
     ShipPlayer::selecPower = nSelecPower;
 }
 
-bool ShipPlayer::isAlive() const {
+bool ShipPlayer::isAlive(){
     if(vida<=0){
         return false;
     }

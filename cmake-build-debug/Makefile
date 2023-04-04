@@ -201,6 +201,30 @@ BulletCollector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.s
 .PHONY : BulletCollector.cpp.s
 
+Meanwhile.o: Meanwhile.cpp.o
+.PHONY : Meanwhile.o
+
+# target to build an object file
+Meanwhile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.o
+.PHONY : Meanwhile.cpp.o
+
+Meanwhile.i: Meanwhile.cpp.i
+.PHONY : Meanwhile.i
+
+# target to preprocess a source file
+Meanwhile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.i
+.PHONY : Meanwhile.cpp.i
+
+Meanwhile.s: Meanwhile.cpp.s
+.PHONY : Meanwhile.s
+
+# target to generate assembly for a file
+Meanwhile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.s
+.PHONY : Meanwhile.cpp.s
+
 ShipEnemy.o: ShipEnemy.cpp.o
 .PHONY : ShipEnemy.o
 
@@ -315,6 +339,9 @@ help:
 	@echo "... BulletCollector.o"
 	@echo "... BulletCollector.i"
 	@echo "... BulletCollector.s"
+	@echo "... Meanwhile.o"
+	@echo "... Meanwhile.i"
+	@echo "... Meanwhile.s"
 	@echo "... ShipEnemy.o"
 	@echo "... ShipEnemy.i"
 	@echo "... ShipEnemy.s"

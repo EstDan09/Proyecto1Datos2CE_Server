@@ -48,7 +48,7 @@ void BulletCollector::deleteF(){
     }
     else{
         Bullet* tmp = cHeadPtr;
-        cHeadPtr = cHeadPtr->next;
+        cHeadPtr = tmp->next;
         delete tmp;
     }
 

@@ -3,6 +3,12 @@
 //
 
 #include "ShipEnemy.h"
+ShipEnemy::ShipEnemy() {
+    ShipEnemy::nextEnemy = nullptr;
+    ShipEnemy::vida = 100;
+    ShipEnemy::alive = true;
+}
+ShipEnemy::~ShipEnemy() {}
 
 ShipEnemy *ShipEnemy::getNextEnemy() const {
     return nextEnemy;
@@ -12,7 +18,7 @@ void ShipEnemy::setNextEnemy(ShipEnemy *nextEnemy) {
     ShipEnemy::nextEnemy = nextEnemy;
 }
 
-int ShipEnemy::getVida() const {
+int ShipEnemy::getVida() {
     return vida;
 }
 
@@ -20,7 +26,7 @@ void ShipEnemy::setVida(int cVida) {
     ShipEnemy::vida = cVida;
 }
 
-bool ShipEnemy::isAlive() const {
+bool ShipEnemy::isAlive(){
     return alive;
 }
 
@@ -39,4 +45,12 @@ std::string ShipEnemy::getColour() {
 }
 void ShipEnemy::setColour(std::string nColour){
     ShipEnemy::colour = nColour;
+}
+
+int ShipEnemy::getCode() {
+    return code;
+}
+
+void ShipEnemy::setCode(int code) {
+    ShipEnemy::code = code;
 }

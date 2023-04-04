@@ -14,15 +14,17 @@ public:
     BulletCollector bulletCollector;
     Bullet *getHead() const;
     void setHead(Bullet *nHead);
-    int getQuantity() const;
+    int getQuantity();
     void setQuantity(int nQuantity);
     void insertBullets(int num, int damage);
-    void noImpact(Bullet* nBullet);
+    void noImpact();
     void impact();
+    int countBullets();
 private:
     int quantity;
     Bullet* head;
 };
+
 
 
 

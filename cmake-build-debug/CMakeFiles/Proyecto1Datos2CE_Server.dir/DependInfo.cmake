@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.cpp" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o" "gcc" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Ammunation.cpp.o.d"
   "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.cpp" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.o" "gcc" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Bullet.cpp.o.d"
   "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.cpp" "CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o" "gcc" "CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.o.d"
+  "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Meanwhile.cpp" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.o" "gcc" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.o.d"
   "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.cpp" "CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o" "gcc" "CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipEnemy.cpp.o.d"
   "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.cpp" "CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o" "gcc" "CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.o.d"
   "/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.cpp" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o" "gcc" "CMakeFiles/Proyecto1Datos2CE_Server.dir/Waves.cpp.o.d"

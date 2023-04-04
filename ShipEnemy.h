@@ -19,11 +19,11 @@ public:
 
     void setNextEnemy(ShipEnemy *nextEnemy);
 
-    int getVida() const;
+    int getVida();
 
     void setVida(int cVida);
 
-    bool isAlive() const;
+    bool isAlive();
 
     void setAlive(bool cAlive);
 
@@ -34,11 +34,18 @@ public:
     std::string getColour();
 
     void setColour(std::string nColour);
+
+    int getCode();
+
+    void setCode(int code);
+
 private:
     int vida;
     bool alive;
     std::string patreon;
     std::string colour;
+    int code;
+
 };
 
 
