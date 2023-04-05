@@ -101,3 +101,11 @@ int Ammunation::countBullets() {
     }
     return i;
 }
+
+int Ammunation::getDamage(){
+    return damage;
+}
+
+void Ammunation::setDamage(int damage) {
+    Ammunation::damage = damage;
+}

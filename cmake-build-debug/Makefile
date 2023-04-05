@@ -201,30 +201,6 @@ BulletCollector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.s
 .PHONY : BulletCollector.cpp.s
 
-Meanwhile.o: Meanwhile.cpp.o
-.PHONY : Meanwhile.o
-
-# target to build an object file
-Meanwhile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.o
-.PHONY : Meanwhile.cpp.o
-
-Meanwhile.i: Meanwhile.cpp.i
-.PHONY : Meanwhile.i
-
-# target to preprocess a source file
-Meanwhile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.i
-.PHONY : Meanwhile.cpp.i
-
-Meanwhile.s: Meanwhile.cpp.s
-.PHONY : Meanwhile.s
-
-# target to generate assembly for a file
-Meanwhile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Meanwhile.cpp.s
-.PHONY : Meanwhile.cpp.s
-
 ShipEnemy.o: ShipEnemy.cpp.o
 .PHONY : ShipEnemy.o
 
@@ -272,6 +248,30 @@ ShipPlayer.s: ShipPlayer.cpp.s
 ShipPlayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/ShipPlayer.cpp.s
 .PHONY : ShipPlayer.cpp.s
+
+Strategys.o: Strategys.cpp.o
+.PHONY : Strategys.o
+
+# target to build an object file
+Strategys.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Strategys.cpp.o
+.PHONY : Strategys.cpp.o
+
+Strategys.i: Strategys.cpp.i
+.PHONY : Strategys.i
+
+# target to preprocess a source file
+Strategys.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Strategys.cpp.i
+.PHONY : Strategys.cpp.i
+
+Strategys.s: Strategys.cpp.s
+.PHONY : Strategys.s
+
+# target to generate assembly for a file
+Strategys.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/Strategys.cpp.s
+.PHONY : Strategys.cpp.s
 
 Waves.o: Waves.cpp.o
 .PHONY : Waves.o
@@ -339,15 +339,15 @@ help:
 	@echo "... BulletCollector.o"
 	@echo "... BulletCollector.i"
 	@echo "... BulletCollector.s"
-	@echo "... Meanwhile.o"
-	@echo "... Meanwhile.i"
-	@echo "... Meanwhile.s"
 	@echo "... ShipEnemy.o"
 	@echo "... ShipEnemy.i"
 	@echo "... ShipEnemy.s"
 	@echo "... ShipPlayer.o"
 	@echo "... ShipPlayer.i"
 	@echo "... ShipPlayer.s"
+	@echo "... Strategys.o"
+	@echo "... Strategys.i"
+	@echo "... Strategys.s"
 	@echo "... Waves.o"
 	@echo "... Waves.i"
 	@echo "... Waves.s"

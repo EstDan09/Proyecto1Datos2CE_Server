@@ -175,5 +175,4 @@ CMakeFiles/Proyecto1Datos2CE_Server.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/arpa/inet.h \
  /usr/include/string.h /usr/include/strings.h \
- /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.h \
- /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.h
+ /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Strategys.h

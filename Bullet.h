@@ -10,17 +10,14 @@ class Bullet {
 public:
     Bullet(int dam);
     ~Bullet();
-    int getDamage() const;
     bool getRecycled() const;
     bool getDirection() const;
     Bullet* getNextPtr() const;
     void setNextPtr(Bullet* next);
-    void setDamage(int nDamage);
     void setRecycled(bool nCondition);
     void setDirection(bool nDirection);
     Bullet* next;
 private:
-    int damage;
     bool recycled;
     bool direction;
 
