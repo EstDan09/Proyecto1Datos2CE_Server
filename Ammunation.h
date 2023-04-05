@@ -10,19 +10,35 @@
 class Ammunation {
 public:
     Ammunation();
+
     ~Ammunation();
+
     BulletCollector bulletCollector;
+
     Bullet *getHead() const;
+
     void setHead(Bullet *nHead);
+
     int getQuantity();
+
     void setQuantity(int nQuantity);
+
     void insertBullets(int num, int damage);
+
     void noImpact();
+
     void impact();
+
     int countBullets();
+
+    int getDamage();
+
+    void setDamage(int damage);
+
 private:
     int quantity;
     Bullet* head;
+    int damage;
 };
 
 

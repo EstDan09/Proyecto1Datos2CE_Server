@@ -5,9 +5,10 @@
 #include "BulletCollector.h"
 #include <iostream>
 using namespace std;
-BulletCollector::BulletCollector()  {
+BulletCollector::BulletCollector(int sDamage)  {
     BulletCollector::cHeadPtr = nullptr;
     BulletCollector::quantity = 0;
+    BulletCollector::damage = sDamage/2;
 }
 
 int BulletCollector::getQuantity() const {
@@ -21,25 +22,11 @@ void BulletCollector::setQuantity(int nQuantity) {
 void BulletCollector::insertF(Bullet* x){
     if (cHeadPtr == nullptr){
         cHeadPtr = x;
-        if(!x->getRecycled()) {
-            cHeadPtr->setDamage((x->getDamage()) / 2);
-            quantity ++;
-        }
-        else{
-            cHeadPtr->setDamage((x->getDamage()));
-            quantity ++;
-        }
         cHeadPtr->setNextPtr(nullptr);
     }
     else{
         x->setNextPtr(cHeadPtr); //aca
         cHeadPtr= x;
-        if(!x->getRecycled()) {
-            cHeadPtr->setDamage((x->getDamage()) / 2);
-        }
-        else{
-            cHeadPtr->setDamage((x->getDamage()));
-        }
     }
 }
 void BulletCollector::deleteF(){
@@ -70,4 +57,12 @@ void BulletCollector::showCol() const{
     else{
         cout << "estoy empty :(" << endl;
     }
+}
+
+int BulletCollector::getDamage(){
+    return damage;
+}
+
+void BulletCollector::setDamage(int damage) {
+    BulletCollector::damage = damage;
 }

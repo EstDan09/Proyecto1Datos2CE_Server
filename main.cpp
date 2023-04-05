@@ -12,10 +12,7 @@ using namespace std;
 
 int main()
 {
-    Waves* waves = new Waves();
-    waves->insertShips(20);
-    waves->colShip(18,105);
-    delete waves;
+    Waves waves[5];
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)
     {
