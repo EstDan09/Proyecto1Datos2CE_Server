@@ -10,7 +10,7 @@
 class BulletCollector {
 public:
     Bullet* cHeadPtr;
-    BulletCollector(int sDamage);
+    BulletCollector();
     void insertF(Bullet* x);
     void deleteF();
     bool available() const;

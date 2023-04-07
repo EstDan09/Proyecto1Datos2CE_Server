@@ -13,7 +13,7 @@ public:
 
     ~Ammunation();
 
-    BulletCollector bulletCollector;
+    BulletCollector* bulletCollector =new BulletCollector();
 
     Bullet *getHead() const;
 

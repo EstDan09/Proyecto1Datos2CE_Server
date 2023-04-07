@@ -148,6 +148,9 @@ CMakeFiles/Proyecto1Datos2CE_Server.dir/Strategys.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
+ /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.h \
+ /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.h \
+ /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.h \
  /usr/include/boost/property_tree/ptree.hpp \
  /usr/include/boost/property_tree/ptree_fwd.hpp \
  /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \

@@ -16,8 +16,14 @@ ShipEnemy *Waves::getHead(){
 void Waves::setHead(ShipEnemy *nHead) {
     Waves::head = nHead;
 }
-void Waves::deleteShip(){
+int Waves::getGenDamage() {
+    return genDamage;
 }
+
+void Waves::setGenDamage(int genDamage) {
+    Waves::genDamage = genDamage;
+}
+
 
 void Waves::insertShips(int numShips) {
     ShipEnemy* tempShip = new ShipEnemy();
@@ -45,4 +51,6 @@ void Waves::colShip(int sCode, int damage){
         }
     }
 }
+
+
 

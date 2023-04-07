@@ -4,7 +4,7 @@
 
 #include "ShipPlayer.h"
 
-ShipPlayer::ShipPlayer(int sVida) {
+ShipPlayer::ShipPlayer(int sVida){
     ShipPlayer::vida = sVida;
     ShipPlayer::vida = 100;
 }
