@@ -5,10 +5,9 @@
 #include "BulletCollector.h"
 #include <iostream>
 using namespace std;
-BulletCollector::BulletCollector(int sDamage)  {
+BulletCollector::BulletCollector()  {
     BulletCollector::cHeadPtr = nullptr;
     BulletCollector::quantity = 0;
-    BulletCollector::damage = sDamage/2;
 }
 
 int BulletCollector::getQuantity() const {

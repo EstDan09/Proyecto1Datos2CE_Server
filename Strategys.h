@@ -14,11 +14,60 @@ public:
     Strategys();
     ~Strategys();
 
-    string xmlReader(string sCode);
-    int lastVida;
-    int activaded;
-    int escudo();
-    int curacion();
+    void selectingS(char x);
+
+    int getShield() const;
+
+    void setShield(int shield);
+
+    int getHealing() const;
+
+    void setHealing(int healing);
+
+    int getDamageincreased() const;
+
+    void setDamageincreased(int damageincreased);
+
+    int getDamageEnemies() const;
+
+    void setDamageEnemies(int damageEnemies);
+
+    char loadedP[2];
+
+    char unloadedP[2];
+
+    int activateP(char x, int prevHealth, int prevPlayerD, int prevEnemyD, int maxHealth);
+
+    int inMemory(char x,int prevHealth, int prevPlayerD, int prevEnemyD, int maxHealth);
+
+    int outOfMemory(char x,int prevHealth, int prevPlayerD, int prevEnemyD, int maxHealth);
+
+    int getAPrevHealth();
+
+    void setAPrevHealth(int aPrevHealth);
+
+    int getAPrevPlayerD() const;
+
+    void setAPrevPlayerD(int aPrevPlayerD);
+
+    int getAPrevEnemyD() const;
+
+    void setAPrevEnemyD(int aPrevEnemyD);
+
+    int reader(char x);
+
+    string path;
+
+    int deactivateP(char x);
+
+private:
+    int shield;
+    int healing;
+    int damageincreased;
+    int damageEnemies;
+    int aPrevHealth;
+    int aPrevPlayerD;
+    int aPrevEnemyD;
 
 };
 

@@ -14,8 +14,6 @@ public:
 
     ShipEnemy* head;
 
-    void deleteShip();
-
     ShipEnemy *getHead();
 
     void setHead(ShipEnemy *nHead);
@@ -23,6 +21,13 @@ public:
     void insertShips(int numShips);
 
     void colShip(int rCode, int damage);
+
+    int getGenDamage();
+
+    void setGenDamage(int genDamage);
+
+private:
+    int genDamage;
 };
 
 

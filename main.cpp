@@ -6,13 +6,23 @@
 #include <arpa/inet.h>
 #include <string.h>
 #include <string>
+#include "Strategys.h"
+#include "ShipPlayer.h"
 #include "Waves.h"
-
 using namespace std;
 
 int main()
 {
-    Waves waves[5];
+    /*
+    Strategys strategys;
+    ShipPlayer shipPlayer(100);
+    shipPlayer.ammunation.setDamage(20);
+    Waves waves;
+    waves.setGenDamage(5);
+    cout<<strategys.activateP(2,shipPlayer.getVida(),shipPlayer.ammunation.getDamage(),waves.getGenDamage(),100)<<endl;
+    cout<<strategys.activateP(2,shipPlayer.getVida(),shipPlayer.ammunation.getDamage(),waves.getGenDamage(),100)<<endl;
+    cout<<strategys.deactivateP(2)<<endl;
+     */
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)
     {

@@ -6,15 +6,13 @@
 #include <iostream>
 
 using namespace std;
-
-Ammunation::Ammunation(){
+Ammunation::Ammunation() {
     Ammunation::quantity=0;
-    Ammunation::bulletCollector = BulletCollector();
+    Ammunation::damage= 22;
+    Ammunation::bulletCollector->setDamage(Ammunation::getDamage()/2);
     Ammunation::head = nullptr;
-    cout << "f - cree el amunation" << endl;
-
-
 }
+
 Ammunation::~Ammunation(){}
 
 Bullet *Ammunation::getHead() const {
@@ -59,7 +57,7 @@ void Ammunation::insertBullets(int num, int damage) {
 }
 void Ammunation::noImpact() {
     if ( head->getNextPtr() == nullptr){
-        Ammunation::bulletCollector.insertF(head);
+        Ammunation::bulletCollector->insertF(head);
         head = nullptr;
         quantity--;
     }
@@ -68,7 +66,7 @@ void Ammunation::noImpact() {
 
         Bullet* tmp1 = head;
         head = tmp1->next;
-        Ammunation::bulletCollector.insertF(tmp1);
+        Ammunation::bulletCollector->insertF(tmp1);
         cout<< head << endl;
         quantity--;
 

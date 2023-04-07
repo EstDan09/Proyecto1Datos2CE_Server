@@ -920,6 +920,9 @@ CMakeFiles/Proyecto1Datos2CE_Server.dir/Strategys.cpp.o: /home/dadu/Documents/Gi
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.h \
   /usr/include/boost/property_tree/ptree.hpp \
   /usr/include/boost/property_tree/ptree_fwd.hpp \
   /usr/include/boost/config.hpp \
@@ -2019,7 +2022,13 @@ CMakeFiles/Proyecto1Datos2CE_Server.dir/main.cpp.o: /home/dadu/Documents/GitHub/
   /usr/include/arpa/inet.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Strategys.h
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Strategys.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Ammunation.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Bullet.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipPlayer.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/Waves.h \
+  /home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.h
 
 
 /usr/include/arpa/inet.h:
