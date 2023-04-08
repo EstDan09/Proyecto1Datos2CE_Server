@@ -7,6 +7,7 @@
 ShipPlayer::ShipPlayer(int sVida){
     ShipPlayer::vida = sVida;
     ShipPlayer::vida = 100;
+
 }
 ShipPlayer::~ShipPlayer() {}
 

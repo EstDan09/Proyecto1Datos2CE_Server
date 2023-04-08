@@ -10,7 +10,14 @@
 #include "ShipPlayer.h"
 #include "Waves.h"
 using namespace std;
-
+string solve(bool input){
+    if (input == 0){
+        return "false";
+    }
+    if (input == 1){
+        return "verdadero";
+    }
+}
 int main()
 {
     /*
@@ -23,6 +30,14 @@ int main()
     cout<<strategys.activateP(2,shipPlayer.getVida(),shipPlayer.ammunation.getDamage(),waves.getGenDamage(),100)<<endl;
     cout<<strategys.deactivateP(2)<<endl;
      */
+    ShipPlayer* shipPlayer = new ShipPlayer(100);
+
+    Waves* waves = new Waves();
+
+    waves->insertShips(4);
+    waves->setGenDamage(4);
+    Strategys strategys;
+
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)
     {
@@ -73,10 +88,13 @@ int main()
 
     while (true)
     {
+
         memset(buf, 0, 4096);
 
 // Wait for client to send data
         int bytesReceived = recv(clientSocket, buf, 4096, 0);
+        string recibido = string(buf, 0, bytesReceived);
+
         if (bytesReceived == -1)
         {
             cerr << "Error in recv(). Quitting" << endl;
@@ -89,7 +107,12 @@ int main()
             break;
         }
 
-        if (string(buf, 0, bytesReceived) == "hola"){
+        if(recibido=="C"){
+            shipPlayer->setVida(shipPlayer->getVida()-waves->getGenDamage());
+            string response = solve(shipPlayer->isAlive());
+            send(clientSocket, response.c_str(), response.size() + 1, 0);
+        }
+        if (string(buf, 0, bytesReceived) == "Colision-1"){
             string response = "Start";
             send(clientSocket, response.c_str(), response.size() + 1, 0);
         }

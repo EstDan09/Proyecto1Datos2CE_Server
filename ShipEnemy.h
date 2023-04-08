@@ -5,6 +5,7 @@
 #ifndef PROYECTO1DATOS2CE_SERVER_SHIPENEMY_H
 #define PROYECTO1DATOS2CE_SERVER_SHIPENEMY_H
 #include <iostream>
+#include "Ammunation.h"
 
 
 class ShipEnemy {
@@ -14,6 +15,8 @@ public:
     ~ShipEnemy();
 
     ShipEnemy* nextEnemy;
+
+    Ammunation* ammunation = new Ammunation();
 
     ShipEnemy *getNextEnemy() const;
 
@@ -38,6 +41,7 @@ public:
     int getCode();
 
     void setCode(int code);
+
 
 private:
     int vida;
