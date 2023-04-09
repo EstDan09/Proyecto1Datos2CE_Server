@@ -30,13 +30,17 @@ int main()
     cout<<strategys.activateP(2,shipPlayer.getVida(),shipPlayer.ammunation.getDamage(),waves.getGenDamage(),100)<<endl;
     cout<<strategys.deactivateP(2)<<endl;
      */
+
+
+
     ShipPlayer* shipPlayer = new ShipPlayer(100);
 
-    Waves* waves = new Waves();
-
+    //Waves* waves = new Waves();
+    /*
     waves->insertShips(4);
-    waves->setGenDamage(4);
+    waves->setGenDamage(50);
     Strategys strategys;
+     */
 
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)

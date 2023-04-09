@@ -26,6 +26,8 @@ public:
 
     void setGenDamage(int genDamage);
 
+    int size;
+
 private:
     int genDamage;
 };

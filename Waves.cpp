@@ -7,6 +7,7 @@
 using namespace std;
 Waves::Waves(){
     Waves::head= nullptr;
+    size = 0;
 }
 Waves::~Waves(){}
 ShipEnemy *Waves::getHead(){
@@ -29,11 +30,13 @@ void Waves::insertShips(int numShips) {
     ShipEnemy* tempShip = new ShipEnemy();
     tempShip->setCode(0);
     setHead(tempShip);
+    size ++;
     for(int i = 1; i<numShips;i++ ){
         ShipEnemy* tempShip = new ShipEnemy();
         tempShip->setCode(i);
         tempShip->setNextEnemy(head);
         setHead(tempShip);
+        size ++;
     }
 }
 void Waves::colShip(int sCode, int damage){
