@@ -10,7 +10,7 @@ Waves::Waves(){
     size = 0;
 }
 Waves::~Waves(){}
-ShipEnemy *Waves::getHead(){
+ShipEnemy *Waves::getHead() const{
     return head;
 }
 
@@ -29,6 +29,7 @@ void Waves::setGenDamage(int genDamage) {
 void Waves::insertShips(int numShips) {
     ShipEnemy* tempShip = new ShipEnemy();
     tempShip->setCode(0);
+    cout<<"La mamama"<<endl;
     setHead(tempShip);
     size ++;
     for(int i = 1; i<numShips;i++ ){

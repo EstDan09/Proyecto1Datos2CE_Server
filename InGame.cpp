@@ -9,7 +9,24 @@
 using namespace std;
 
 InGame::InGame() {
-    Waves* waves[15];
+    *waves = new Waves[15] {
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves(),
+       Waves()
+
+    };
 
     waves[0]->insertShips(4);
     waves[1]->insertShips(4);
