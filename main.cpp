@@ -9,6 +9,7 @@
 #include "Strategys.h"
 #include "ShipPlayer.h"
 #include "InGame.h"
+#include "Waves.h"
 using namespace std;
 string solve(bool input){
     if (input == 0){

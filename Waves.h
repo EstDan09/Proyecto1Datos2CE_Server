@@ -12,9 +12,8 @@ public:
 
     ~Waves();
 
-    ShipEnemy* head;
 
-    ShipEnemy *getHead();
+    ShipEnemy *getHead() const;
 
     void setHead(ShipEnemy *nHead);
 
@@ -30,6 +29,7 @@ public:
 
 private:
     int genDamage;
+    ShipEnemy* head;
 };
 
 
