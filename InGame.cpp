@@ -9,24 +9,21 @@
 using namespace std;
 
 InGame::InGame() {
-    *waves = new Waves[15] {
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves(),
-       Waves()
-
-    };
+    waves[0]=new Waves();
+    waves[1]=new Waves();
+    waves[2]=new Waves();
+    waves[3]=new Waves();
+    waves[4]=new Waves();
+    waves[5]=new Waves();
+    waves[6]=new Waves();
+    waves[7]=new Waves();
+    waves[8]=new Waves();
+    waves[9]=new Waves();
+    waves[10]=new Waves();
+    waves[11]=new Waves();
+    waves[12]=new Waves();
+    waves[13]=new Waves();
+    waves[14]=new Waves();
 
     waves[0]->insertShips(4);
     waves[1]->insertShips(4);
@@ -46,6 +43,10 @@ InGame::InGame() {
     countCurrent = 0;
     currentWave = waves[0];
 }
+
+
+
+
 
 Waves *InGame::getCurrentWave() {
     return currentWave;
