@@ -22,20 +22,24 @@ void BulletCollector::insertF(Bullet* x){
     if (cHeadPtr == nullptr){
         cHeadPtr = x;
         cHeadPtr->setNextPtr(nullptr);
+        quantity++;
     }
     else{
         x->setNextPtr(cHeadPtr); //aca
         cHeadPtr= x;
+        quantity++;
     }
 }
 void BulletCollector::deleteF(){
     if ( cHeadPtr->getNextPtr() == nullptr){
         cHeadPtr = nullptr;
+        quantity--;
     }
     else{
         Bullet* tmp = cHeadPtr;
         cHeadPtr = tmp->next;
         delete tmp;
+        quantity--;
     }
 
 }

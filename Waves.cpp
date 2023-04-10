@@ -39,7 +39,7 @@ void Waves::insertShips(int numShips) {
         size ++;
     }
 }
-void Waves::colShip(int sCode, int damage){
+bool Waves::colShip(int sCode, int damage){
     ShipEnemy* tmp = head;
     while(tmp!= nullptr){
         if(tmp->getCode()==sCode){
@@ -47,7 +47,7 @@ void Waves::colShip(int sCode, int damage){
             if(tmp->getVida()<=0){
                 tmp->setAlive(false);
             }
-            break;
+            return tmp->isAlive();
         }
         else{
             tmp = tmp->getNextEnemy();

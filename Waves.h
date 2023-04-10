@@ -20,7 +20,7 @@ public:
 
     void insertShips(int numShips);
 
-    void colShip(int rCode, int damage);
+    bool colShip(int rCode, int damage);
 
     int getGenDamage();
 

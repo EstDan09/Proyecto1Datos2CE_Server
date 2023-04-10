@@ -8,7 +8,7 @@
 #include <string>
 #include "Strategys.h"
 #include "ShipPlayer.h"
-#include "Waves.h"
+#include "InGame.h"
 using namespace std;
 string solve(bool input){
     if (input == 0){
@@ -35,12 +35,9 @@ int main()
 
     ShipPlayer* shipPlayer = new ShipPlayer(100);
 
-    //Waves* waves = new Waves();
-    /*
-    waves->insertShips(4);
-    waves->setGenDamage(50);
-    Strategys strategys;
-     */
+    shipPlayer->ammunation->insertBullets(300);
+
+    InGame* inGame = new InGame();
 
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)
@@ -112,15 +109,54 @@ int main()
         }
 
         if(recibido=="C"){
-            shipPlayer->setVida(shipPlayer->getVida()-waves->getGenDamage());
+            shipPlayer->setVida(shipPlayer->getVida()-inGame->getCurrentWave()->getGenDamage());
             string response = solve(shipPlayer->isAlive());
             send(clientSocket, response.c_str(), response.size() + 1, 0);
         }
-        if (string(buf, 0, bytesReceived) == "Colision-1"){
-            string response = "Start";
+        if (recibido.substr(0)=="A"){
+            string response;
+            if(shipPlayer->ammunation->getQuantity()>0) {
+                shipPlayer->ammunation->impact();
+                if (inGame->getCurrentWave()->colShip(stoi(recibido.substr(1, 2)),shipPlayer->ammunation->getDamage())) {
+                    response = "No destruido";
+                }
+                else {
+                    response = "destruido";
+                }
+            }
+            else{
+                shipPlayer->ammunation->bulletCollector->deleteF();
+                if (inGame->getCurrentWave()->colShip(stoi(recibido.substr(1, 2)),shipPlayer->ammunation->bulletCollector->getDamage())) {
+                    response = "No destruido";
+                }
+                else {
+                    response = "destruido";
+                }
+            }
+            //string response = "Start";
             send(clientSocket, response.c_str(), response.size() + 1, 0);
         }
-
+        if(recibido=="E"){
+           string response = solve(inGame->checkNextW());
+            send(clientSocket, response.c_str(), response.size() + 1, 0);
+        }
+        if(recibido=="D"){
+            if(shipPlayer->ammunation->getQuantity()>0){
+                shipPlayer->ammunation->noImpact();
+            }
+        }
+        if(recibido=="W"){
+            bool value = false;
+            if(shipPlayer->ammunation->getQuantity()>0 or shipPlayer->ammunation->bulletCollector->getQuantity()>0){
+                value = true;
+            }
+            string response = solve(value);
+            send(clientSocket, response.c_str(), response.size() + 1, 0);
+        }
+        if(recibido=="S"){
+            string response = to_string(shipPlayer->ammunation->getQuantity());
+            send(clientSocket, response.c_str(), response.size() + 1, 0);
+        }
         if (string(buf, 0, bytesReceived) == "adios"){
             string response = "End";
             send(clientSocket, response.c_str(), response.size() + 1, 0);
