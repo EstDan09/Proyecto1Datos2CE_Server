@@ -35,7 +35,7 @@ int main()
 
     ShipPlayer* shipPlayer = new ShipPlayer(100);
 
-    shipPlayer->ammunation->insertBullets(300);
+    shipPlayer->ammunation->insertBullets(2);
 
     InGame* inGame = new InGame();
 

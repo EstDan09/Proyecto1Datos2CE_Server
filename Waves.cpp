@@ -15,7 +15,7 @@ ShipEnemy *Waves::getHead(){
 }
 
 void Waves::setHead(ShipEnemy *nHead) {
-    Waves::head = nHead;
+    head = nHead;
 }
 int Waves::getGenDamage() {
     return genDamage;

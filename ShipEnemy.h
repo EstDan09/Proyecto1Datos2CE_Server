@@ -16,8 +16,6 @@ public:
 
     ShipEnemy* nextEnemy;
 
-    Ammunation* ammunation = new Ammunation();
-
     ShipEnemy *getNextEnemy() const;
 
     void setNextEnemy(ShipEnemy *nextEnemy);
