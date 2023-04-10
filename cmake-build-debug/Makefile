@@ -201,6 +201,30 @@ BulletCollector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/BulletCollector.cpp.s
 .PHONY : BulletCollector.cpp.s
 
+InGame.o: InGame.cpp.o
+.PHONY : InGame.o
+
+# target to build an object file
+InGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/InGame.cpp.o
+.PHONY : InGame.cpp.o
+
+InGame.i: InGame.cpp.i
+.PHONY : InGame.i
+
+# target to preprocess a source file
+InGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/InGame.cpp.i
+.PHONY : InGame.cpp.i
+
+InGame.s: InGame.cpp.s
+.PHONY : InGame.s
+
+# target to generate assembly for a file
+InGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto1Datos2CE_Server.dir/build.make CMakeFiles/Proyecto1Datos2CE_Server.dir/InGame.cpp.s
+.PHONY : InGame.cpp.s
+
 ShipEnemy.o: ShipEnemy.cpp.o
 .PHONY : ShipEnemy.o
 
@@ -339,6 +363,9 @@ help:
 	@echo "... BulletCollector.o"
 	@echo "... BulletCollector.i"
 	@echo "... BulletCollector.s"
+	@echo "... InGame.o"
+	@echo "... InGame.i"
+	@echo "... InGame.s"
 	@echo "... ShipEnemy.o"
 	@echo "... ShipEnemy.i"
 	@echo "... ShipEnemy.s"

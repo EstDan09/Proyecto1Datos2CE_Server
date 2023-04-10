@@ -8,18 +8,16 @@
 
 class Bullet {
 public:
-    Bullet(int dam);
+    Bullet();
     ~Bullet();
     bool getRecycled() const;
-    bool getDirection() const;
     Bullet* getNextPtr() const;
     void setNextPtr(Bullet* next);
     void setRecycled(bool nCondition);
-    void setDirection(bool nDirection);
     Bullet* next;
 private:
     bool recycled;
-    bool direction;
+
 
 };
 

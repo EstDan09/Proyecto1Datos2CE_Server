@@ -11,6 +11,7 @@ Ammunation::Ammunation() {
     Ammunation::damage= 22;
     Ammunation::bulletCollector->setDamage(Ammunation::getDamage()/2);
     Ammunation::head = nullptr;
+    Ammunation::noAmmunation=false;
 }
 
 Ammunation::~Ammunation(){}
@@ -31,16 +32,16 @@ void Ammunation::setQuantity(int nQuantity) {
     Ammunation::quantity = nQuantity;
 }
 
-void Ammunation::insertBullets(int num, int damage) {
+void Ammunation::insertBullets(int num) {
     if (getQuantity() ==0 && num==1){
-        Ammunation::setHead(new Bullet(damage));
+        Ammunation::setHead(new Bullet);
         quantity++;
     }
     else if (getQuantity()==0 && num!=1){
-        Ammunation::setHead(new Bullet(damage));
+        Ammunation::setHead(new Bullet);
         quantity++;
         for(int i = 1; i<num;i++){
-            Bullet* nBullet = new Bullet(damage);
+            Bullet* nBullet = new Bullet;
             nBullet->setNextPtr(head);
             head = nBullet;
             quantity++;
@@ -48,7 +49,7 @@ void Ammunation::insertBullets(int num, int damage) {
     }
     else{
         for(int i = 0; i<num;i++){
-            Bullet* nBullet = new Bullet(damage);
+            Bullet* nBullet = new Bullet;
             nBullet->setNextPtr(head);
             head = nBullet;
             quantity++;
@@ -106,4 +107,12 @@ int Ammunation::getDamage(){
 
 void Ammunation::setDamage(int damage) {
     Ammunation::damage = damage;
+}
+
+bool Ammunation::isNoAmmunation() const {
+    return noAmmunation;
+}
+
+void Ammunation::setNoAmmunation(bool noAmmunation) {
+    Ammunation::noAmmunation = noAmmunation;
 }

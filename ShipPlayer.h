@@ -25,7 +25,7 @@ public:
     bool isAlive();
 
     void setAlive(bool cAlive);
-    Ammunation ammunation;
+    Ammunation* ammunation= new Ammunation();
 private:
     int vida;
     std::string selecPower;

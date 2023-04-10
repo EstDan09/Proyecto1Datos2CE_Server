@@ -100,6 +100,12 @@
 		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/BulletCollector.h">
 			<Option target="Proyecto1Datos2CE_Server"/>
 		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/InGame.cpp">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
+		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/InGame.h">
+			<Option target="Proyecto1Datos2CE_Server"/>
+		</Unit>
 		<Unit filename="/home/dadu/Documents/GitHub/Proyecto1Datos2CE_Server/ShipEnemy.cpp">
 			<Option target="Proyecto1Datos2CE_Server"/>
 		</Unit>

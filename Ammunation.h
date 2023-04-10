@@ -23,7 +23,7 @@ public:
 
     void setQuantity(int nQuantity);
 
-    void insertBullets(int num, int damage);
+    void insertBullets(int num);
 
     void noImpact();
 
@@ -35,10 +35,17 @@ public:
 
     void setDamage(int damage);
 
+    bool isNoAmmunation() const;
+
+    void setNoAmmunation(bool noAmmunation);
+
+
+
 private:
     int quantity;
     Bullet* head;
     int damage;
+    bool noAmmunation;
 };
 
 
